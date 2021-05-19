@@ -15,7 +15,7 @@ body {
     padding: 0;
     font-size: 18px;
     font-family: 'PT Sans Narrow', sans-serif;
-    color: rgb(255, 255, 255);
+    color:#142239;
     background-color: #fff;
 }
 
@@ -124,6 +124,25 @@ button:focus {
     color: #142239;
 }
 
+@media (max-width: 1300px) {
+.obj-title {
+    margin-bottom: 50px;
+    font-size: 45px;
+}
+}
+
+@media (max-width: 767px){
+.obj-title {
+    margin-bottom: 35px;
+    font-size: 30px;
+}
+}
+
+@media (max-width: 767px){
+.obj-title {
+    font-size: 20px;
+}
+}
 .obj-title span {
     color: #CE2F27;
 }
@@ -138,6 +157,13 @@ button:focus {
     line-height: 110%;
     text-align: center;
     color: #FFFFFF;
+    transition: 0.3s;
+
+}
+.btn-red:hover {
+    transition: 0.3s;
+    background: #142239;
+   box-shadow: none;
 }
 
 
@@ -316,9 +342,9 @@ button:focus {
 }
 
 .we-know-btn {
-    width: 360px;
+    width: 330px;
     height: 70px;
-    transform: translateX(5%);
+    transform: translateX(4%);
 }
 
 .big-shark {
@@ -330,13 +356,71 @@ button:focus {
 
 /* we-know */
 
-
 /* cooperation */
 
 .cooperation {
-    padding: 55 0 70px;
+    padding: 55px 0 70px;
     background: #F4F9FF;
 }
-
-
+.cooperation-item{
+    margin-right: 100px;
+}
+.cooperation-info{
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 110%;
+text-align: center;
+color: #142239;
+}
+.cooperation-info span{
+    color: #CE2F27;
+    }
 /* cooperation */
+/* cases */
+.cases{
+    padding: 50px 0 50px;
+}
+
+/* cases */
+
+/* services */
+.request{
+    padding: 65px 0 130px;
+    background: #F4F9FF;
+}
+.services-info{
+    width: 640px;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 100%;
+text-align: center;
+}
+.input-services{
+background: #FFFFFF;
+box-shadow: 1px 1px 2px rgba(255, 255, 255, 0.3), -1px -1px 2px rgba(199, 199, 199, 0.5), inset -1px 1px 2px rgba(199, 199, 199, 0.2), inset 1px -1px 2px rgba(199, 199, 199, 0.2), inset -1px -1px 2px rgba(255, 255, 255, 0.9), inset 1px 1px 3px rgba(199, 199, 199, 0.9);
+border-radius: 10px;
+    width: 360px;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 110%;
+color: #C4C4C4;
+height: 60px;
+padding: 0 0 0 33px;
+}
+.btn-services{
+    width: 360px;
+    height: 60px;
+}
+/* services */
+/* request */
+.stages{
+    padding: 65px 0;
+}
+.ez-money{
+    right: -25px;
+    bottom: 0;
+}
+/* request */
