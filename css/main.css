@@ -722,6 +722,119 @@ button:focus {
     padding: 55px 0 65px 0;
     background: #F4F9FF;
 }
+.stock-block{
+}
+.stock-item{
+background: #FFFFFF;
+border-radius: 0px 20px;
+padding: 6px;
+width: 360px;
+height: 445px;
+position: relative;
+z-index: 11;
+}
+.stock-element{
+    border: 2px solid #142239;
+    border-radius: 0px 20px;
+    height: 100%;
+background: #FFFFFF;
+    z-index: 10;
+}
+.stock-individ-element::before {
+    position: absolute;
+    content: '';
+    display: table;
+    background-image: url(../img/stock/1-1-element.png);
+    width: 60px;
+    height: 22px;
+    top: -7px;
+    left: 146px;
+    background-repeat: no-repeat;
+}
+.stock-individ-element::after {
+    background-repeat: no-repeat;
+    position: absolute;
+    content: '';
+    display: table;
+    background-image: url(../img/stock/1-2-element.png);
+    width: 31px;
+    height: 61px;
+    top: 135px;
+    left: 8px;
+}
+.stock-text{
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 100%;
+text-align: center;
+}
+.stock-text span{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 29px;
+    }
+    .stock-btn{
+        max-width: 315px;
+        width: 100%;
+        padding: 17px 0;
+    }
+    .stock-decor-one {
+        transform: rotate( 
+    315deg
+     );
+        top: 27px;
+        left: -66px;
+        border-bottom: 65px solid #CE2F27;
+        border-left: 64px solid transparent;
+        border-right: 65px solid transparent;
+        width: 250px;
+        height: 0;
+        box-shadow: 2px 12px 4px -10px rgb(50 50 50 / 75%);
+        z-index: 15;
+    }
+    .stock-decor-one--element{
+font-style: normal;
+font-weight: bold;
+font-size: 45px;
+line-height: 110%;
+color: #FFFFFF;
+transform: translateY(15%);
+    }
 
+    .stock-element-two {
+        border-radius: 20px 0px;
+    }
+    .stock-item-two{
+        border-radius: 20px 0px;
+    }
+    .stock-present{
+        top: 0;
+        right: 0;
+        z-index: 20;
+    }
+    .stock-element-three {
+        border-radius: 20px 20px 0px 0px;
+        z-index: 0;
+    }
+    .stock-item-three{
+        border-radius: 20px 20px 0px 0px;
+        z-index: 0;
+    }
+.sale-stock{
+    top: 0;
+    left: 50%;
+    z-index: 20;
+    transform: translateX(-50%);
+}
+.sale-long{
+    top: 0;
+    left: 50%;
+    transform: translateX(-51%);
+
+}
+.stock-img-three{
+    width: 215px;
+}
 
 /* stock */
