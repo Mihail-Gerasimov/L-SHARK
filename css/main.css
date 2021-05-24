@@ -443,7 +443,46 @@ button:focus {
     height: 60px;
 }
 
+.label-radio {
+    display: flex;
+    align-items: center;
+    margin-bottom: 45px;
+    font-size: 12px;
+}
 
+.real-radio {
+    display: none;
+}
+
+.custom-radio {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 16px;
+    vertical-align: middle;
+    cursor: pointer;
+    background: #142239;
+border-radius: 5px;
+}
+
+.custom-radio--text {
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 16px;
+    width: auto;
+}
+
+.custom-radio img {
+    right: 0;
+    position: absolute;
+    top: 0;
+    transform: translate(-22%, 35%);
+}
+
+.label-radio input:checked+.custom-radio {
+    background: #C40021;
+}
 /* request */
 
 
@@ -838,3 +877,100 @@ transform: translateY(15%);
 }
 
 /* stock */
+/* business */
+.business{
+    padding: 60px 0 65px;
+}
+.businness-subblock{
+    background: #142239;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+padding: 20px 0 25px 0;
+max-width: 485px;
+height: 545px;
+width: 100%;
+}
+.businness-subblock--title{
+    width: fit-content;
+    background: #F6F6F6;
+box-shadow: -1px 1px 2px rgba(255, 255, 255, 0.3), 1px -1px 2px rgba(98, 98, 98, 0.5), inset 1px 1px 2px rgba(98, 98, 98, 0.2), inset -1px -1px 2px rgba(98, 98, 98, 0.2), inset 1px -1px 2px rgba(255, 255, 255, 0.9), inset -1px 1px 3px rgba(98, 98, 98, 0.9);
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 110%;
+text-align: center;
+color: #142239;
+padding: 7px 50px;
+}
+.businness-subblock--title span{
+    color: #CE2F27;
+}
+.businness-img-wrapper{
+    background: #F4F9FF;
+border-radius: 5px;
+width: 53px;
+height: 53px;
+}
+.info-business--text{
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 100%;
+color: #FFFFFF;
+}
+.businness-subblock--two{
+    background: #F4F9FF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.info-business--text__two{
+    color: #142239;
+}
+.business-img-wrapper--two{
+    background: #FFFFFF;
+}
+.businness-big-pic{
+    right: 0;
+   bottom: 50px;
+}
+/* business */
+/* about-us */
+.about-us{
+    padding: 75px 0;
+    background: #F4F9FF;
+}
+.about-us--text{
+    max-width: 705px;
+font-style: normal;
+font-weight: normal;
+font-size: 26px;
+line-height: 120%;
+}
+.about-picture {
+    right: 71px;
+    top: 115px;
+}
+/* about-us */
+/* our-clients */
+.our-clients{
+padding: 60px 0;
+}
+/* our-clients */
+/* footer */
+.footer{
+padding: 80px 0 95px;
+background: #142239;
+}
+.footer-logo{
+}
+.footer-list-item{
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 110%;
+color: #F4F9FF;
+}
+.footer-list-item span{
+    font-weight: bold;
+    }
+/* footer */
+

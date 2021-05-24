@@ -22,6 +22,20 @@
         width: 650px;
     }
     /* stages */
+    /* businness */
+    .businness-big-pic {
+        right: 0;
+        width: 625px;
+        bottom: 50px;
+    }
+    /* businness */
+/* about-us */
+.about-picture {
+    right: 0;
+    top: 81px;
+    width: 830px;
+}
+/* about-us */
 }
 
 @media (max-width: 1450px) {
@@ -63,6 +77,28 @@
         width: 530px;
     }
     /* stages */
+    /* business */
+    .businness-big-pic {
+        width: 440px;
+        bottom: 135px;
+    }
+    /* business */
+     /* about-us */
+     .about-picture {
+        right: 0;
+        top: 240px;
+        width: 595px;
+    }
+    /* about-us */
+/* footer */
+.footer-logo {
+    width: 200px;
+}
+.footer-list-item {
+    font-size: 17px;
+}
+/* footer */
+
 }
 
 @media (max-width: 1400px) {
@@ -90,12 +126,22 @@
 }
 
 @media (max-width: 1300px) {
-    /* stages */
-    .ez-money {
-        width: 420px;
-        bottom: 57px;
+     /* business */
+     .businness-big-pic {
+         display: none;
     }
-    /* stages */
+    /* business */
+    /* about-us */
+    .about-us--text {
+        max-width: 545px;
+        font-size: 20px;
+    }
+    .about-picture {
+        top: 135px;
+        width: 544px;
+    }
+    /* about-us */
+
 }
 
 @media (max-width: 1200px) {
@@ -158,6 +204,15 @@
         display: none;
     }
     /* stages */
+   /* footer */
+.footer-logo {
+    width: 165px;
+}
+.footer-list-item {
+    font-size: 15px;
+}
+/* footer */
+
 }
 
 @media (max-width: 1020px) {
@@ -173,6 +228,12 @@
         font-size: 30px;
     }
     /* header */
+        /* about-us */
+        .about-us--text {
+            max-width: 386px;
+            font-size: 17px;
+        }
+        /* about-us */
 }
 
 @media (max-width: 992px) {
@@ -362,6 +423,29 @@
     /* shark-4 */
 
     /* stages */
+    /* business */
+    .businness-subblock {
+        max-width: 485px;
+        height: 475px;
+        padding: 20px 20px 25px 0;
+    }
+    .businness-subblock--title {
+        font-size: 20px;
+        padding: 7px 50px 7px 20px;
+    }
+    .businness-img-wrapper {
+        width: 45px;
+        height: 45px;
+        padding: 5px;
+    }
+    .info-business--text {
+        font-size: 16px;
+        width: auto;
+    }
+    .info-business--text br {
+        display: none;
+    }
+    /* business */
 }
 
 @media (max-width: 940px) {
@@ -373,6 +457,13 @@
         font-size: 100px;
     }
     /* header */
+    /* about-us */
+    .about-picture {
+        top: 204px;
+        width: 451px;
+    }
+    /* about-us */
+
 }
 
 @media (max-width: 800px) {
@@ -393,6 +484,13 @@
         width: 330px;
     }
     /* header */
+    /* about-us */
+    .about-picture {
+        top: 204px;
+        width: 350px;
+    }
+    /* about-us */
+
 }
 
 @media (max-width: 767px) {
@@ -501,7 +599,32 @@
     /* shark-4 */
 
     /* stages */
-
+/* businnes */
+.info-business--text br {
+    display: block;
+}
+.businness-subblock {
+    max-width: 369px;
+}
+.info-business--text {
+    font-size: 15px;
+}
+/* businnes */
+    /* about-us */
+    .about-picture {
+        position: relative !important;
+        top: auto;
+        right: auto;
+        max-width: 500px;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .about-us--text {
+        text-align: start;
+        max-width: 100%;
+        font-size: 16px;
+    }
+    /* about-us */
 }
 
 @media (max-width: 630px) {
@@ -564,6 +687,14 @@
         padding: 0px !important;
     }
     /* header */
+    /* request */
+    .custom-radio--text {
+        font-size: 16px;
+        line-height: 16px;
+        width: 175px;
+    }
+    /* request */
+
     /* stages */
 .stages-mobile--item{
     background: #F4F9FF;
@@ -670,6 +801,43 @@ box-shadow: 1px 1px 2px rgba(30, 51, 86, 0.3), -1px -1px 2px rgba(10, 17, 29, 0.
     width: 145px;
 }
 /* stock */
+/* footer */
+.footer {
+    padding: 30px 0 40px;
+}
+.footer-logo {
+    width: 100px;
+}
+/* footer */
+
+}
+@media (max-width: 475px) {
+    /* business */
+    .business {
+        padding: 60px 0 25px;
+    }
+.container-individ{
+    padding: 0 !important;
+}
+.businness-subblock {
+    max-width: 100%;
+}
+.businness-subblock {
+    border-radius: 0px;
+}
+.businness-subblock--two {
+    background: #ffffff;
+    box-shadow: none;
+}
+.businness-subblock {
+    box-shadow: none;
+    padding: 20px 10px 25px 0;
+    height: auto;
+}
+/* .info-business--text br {
+    display: none;;
+} */
+    /* business */
 }
 @media (max-width: 375px) {
 /* stages */
