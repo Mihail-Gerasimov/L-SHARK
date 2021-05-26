@@ -404,12 +404,14 @@ button:focus {
 }
 .case-prev {
     top: 70px;
-    right: 60px;
+    right: 100px;
     left: auto;
+    width: 64px;
 }
 .case-next{
     top: 70px;
     left: auto;
+    width: 64px;
 }
 .cases {
     padding: 50px 0 50px;
@@ -467,38 +469,54 @@ margin-bottom: 60px;
 
 
 /* services */
+.services-title{
+    display: none;
+}
+.services-prev{
+    top: 40px;
+    right: 100px;
+    left: auto;
+    width: 64px;
+}
+.services-next{
+    top: 40px;
+    left: auto;
+    width: 64px;
+}
 .services-slide{
     /* width: 310px!important; */
-    padding: 10px;
     min-width: 0;
 }
 .fon-ser{
-    width: 310px;
-    height: 520px;
     top: 0;
     right: 0;
     z-index: -1;
 }
 .services-slide__child{
+    padding-top: 10px;
     width: 310px;
     height: 520px;
     z-index: 0;
 }
-.services-title__card{
-font-style: normal;
-font-weight: bold;
-font-size: 18px;
-line-height: 115%;
-text-align: center;
-text-transform: uppercase;
-}
-.services-text__card{
+.services-text__card {
+    height: 222px;
     width: 260px;
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 110%;
-text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 110%;
+    text-align: center;
+}
+.services-title__card{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 115%;
+    text-align: center;
+    text-transform: uppercase;
 }
 .services-btn{
     padding: 12px 50px;
@@ -1070,4 +1088,100 @@ color: #F4F9FF;
     font-weight: bold;
     }
 /* footer */
+
+/* castom-catousel-mobile */
+.cor-block-fit {
+    display: none;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 475px;
+}
+#carousel {
+    top: 0;
+    left: 0;
+    position: absolute;
+    padding-top: 30px;
+    touch-action: none;
+    width: 100%;
+    margin: 0 auto;
+    height: 450px;
+    transform-style: preserve-3d;
+    justify-content: center;
+    align-items: center;
+}
+#drag-container, #spin-container {
+    position: relative;
+    width: 260px !important;
+    display: flex;
+    margin: 0 auto;
+    transform-style: preserve-3d;
+    height: 100%;
+    z-index: 10;
+}
+
+#drag-container a {
+    transform-style: preserve-3d;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 260px !important;
+    height: 420px !important;
+    box-shadow: -1px 1px 8px rgb(0 0 0 / 20%), 0 10px 16px rgb(0 0 0 / 10%);
+    border-radius: 20px;
+    touch-action: none;
+    border-radius: 3px solid black;
+}
+.cor-block-fit-general{
+    background-color: #F4F9FF;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    border-radius: 20px;
+
+}
+.fon-ser-general{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 20px;
+height: 420px;  
+}
+.ser-mob{
+    margin-bottom: 16px;
+}
+
+#drag-container .block-fit-general__content {
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgb(79, 79, 79);
+    padding: 0 15px;
+}
+
+#ground {
+    position: absolute;
+    transform: translate(-50%, -50%) rotateX(90deg);
+}
+
+@keyframes spin {
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(360deg);
+    }
+}
+
+@keyframes spinRevert {
+    from {
+        transform: rotateY(360deg);
+    }
+    to {
+        transform: rotateY(0deg);
+    }
+}
+/* castom-catousel-mobile */
 
