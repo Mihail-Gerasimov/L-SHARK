@@ -555,6 +555,7 @@ margin-bottom: 60px;
     color: #C4C4C4;
     height: 60px;
     padding: 0 0 0 33px;
+    background-position-y: 0;
 }
 
 .btn-services {
