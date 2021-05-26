@@ -3,56 +3,95 @@
 const swiper = new Swiper('.image-slider', {
 
     navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
     },
 
     breakpoints: {
         320: {
-            slidesPerView:1.2
+            slidesPerView: 1.2
         },
         476: {
-            slidesPerView:1,
-            centeredSlides:false
+            slidesPerView: 1,
+            centeredSlides: false
         }
-      },
-   
-  });
+    },
+
+});
 
 
 const swiperR = new Swiper('.services-container', {
 
-  navigation: {
-    nextEl: '.services-next',
-    prevEl: '.services-prev',
-  },
+    navigation: {
+        nextEl: '.services-next',
+        prevEl: '.services-prev',
+    },
 
-  breakpoints: {
-    1400: {
-      slidesPerView:4.3,
+    breakpoints: {
+        1400: {
+            slidesPerView: 4.3,
+        },
+        1220: {
+            slidesPerView: 3.8,
+        },
+        1020: {
+            slidesPerView: 3.1,
+        },
+        860: {
+            slidesPerView: 3.1,
+        },
+        700: {
+            slidesPerView: 2.5,
+        },
+        576: {
+            slidesPerView: 2,
+        },
+        475: {
+            slidesPerView: 1.6,
+        },
+        426: {
+            slidesPerView: 1.4,
+        }
     },
-    1220: {
-        slidesPerView:3.8,
+
+});
+
+const swiperL = new Swiper('.rev-container', {
+
+    navigation: {
+        nextEl: '.rev-next',
+        prevEl: '.rev-prev',
     },
-    1020: {
-      slidesPerView:3.1,
-  },
-  860: {
-    slidesPerView:3.1,
-},
-700: {
-  slidesPerView:2.5,
-},
-576: {
-  slidesPerView:2,
-},
-475: {
-  slidesPerView:1.6,
-},
-426: {
-  slidesPerView:1.4,
-}
-  },
+
+    breakpoints: {
+        1020: {
+            slidesPerView: 3,
+            centeredSlides: 0,
+            loop: false,
+            inicialSlide: 0,
+            spaceBetween: 0,
+        },
+        860: {
+            slidesPerView: 2.5,
+        },
+        600: {
+            slidesPerView: 2.2,
+        },
+        475: {
+            slidesPerView: 1.7,
+            centeredSlides: 0,
+            loop: false,
+            inicialSlide: 0,
+            spaceBetween: 0,
+        },
+        320: {
+            slidesPerView: 1.2,
+            centeredSlides: true,
+            loop: true,
+            inicialSlide: 2,
+            spaceBetween: 15,
+        }
+    },
 
 });
 
