@@ -272,6 +272,7 @@ button:focus {
     0% {
         transform: rotate(0deg);
     }
+
     100% {
         transform: rotate(-360deg);
     }
@@ -304,9 +305,11 @@ button:focus {
     0% {
         transform: translateY(-13px);
     }
+
     50% {
         transform: translateY(0px);
     }
+
     100% {
         transform: translateY(-13px);
     }
@@ -978,7 +981,7 @@ button:focus {
 }
 
 .stock-decor-one {
-    transform: rotate( 315deg);
+    transform: rotate(315deg);
     top: 27px;
     left: -66px;
     border-bottom: 65px solid #CE2F27;
@@ -1262,7 +1265,7 @@ button:focus {
     height: 420px !important;
     box-shadow: -1px 1px 8px rgb(0 0 0 / 20%), 0 10px 16px rgb(0 0 0 / 10%);
     border-radius: 20px;
-    touch-action: none;
+    touch-action: pan-y;
     border-radius: 3px solid black;
 }
 
@@ -1304,6 +1307,7 @@ button:focus {
     from {
         transform: rotateY(0deg);
     }
+
     to {
         transform: rotateY(360deg);
     }
@@ -1313,6 +1317,7 @@ button:focus {
     from {
         transform: rotateY(360deg);
     }
+
     to {
         transform: rotateY(0deg);
     }

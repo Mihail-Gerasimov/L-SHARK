@@ -101,13 +101,13 @@ let rotateSpeed = -100;
 let imgWidth = 140;
 let imgHeight = 205;
 setTimeout(init, 300);
+let carousel = document.getElementById("carousel");
 let odrag = document.getElementById("drag-container");
 let ospin = document.getElementById("spin-container");
-let carousel = document.getElementById("carousel");
 let aImg = ospin.getElementsByTagName("a");
+let ground = document.getElementById("ground");
 ospin.style.width = imgWidth + "px";
 ospin.style.height = imgHeight + "px";
-let ground = document.getElementById("ground");
 ground.style.width = radius * 3 + "px";
 ground.style.height = radius * 3 + "px";
 
@@ -122,11 +122,7 @@ function init(delayTime) {
     }
 }
 
-function applyTranform(obj) {
-    if (tY > 0) tY = 0;
-    if (tY < 0) tY = 0;
-    obj.style.transform = "rotateX(" + -tY + "deg) rotateY(" + tX + "deg)";
-}
+
 let sX,
     sY,
     nX,
@@ -135,21 +131,30 @@ let sX,
     desY = 0,
     tX = 0,
     tY = 0;
+
 if (autoRotate) {
     let animationName = rotateSpeed > 0 ? "spin" : "spinRevert";
     ospin.style.animation = `${animationName} ${Math.abs(
-    rotateSpeed
+        rotateSpeed
     )}s infinite linear`;
 }
-carousel.onpointerdown = function(e) {
+function applyTranform(obj) {
+    // if (tY > 0) tY = 0;
+    // if (tY < 0) tY = 0;
+    // obj.style.transform = "rotateX(" + -tY + "deg) rotateY(" + tX + "deg)";
+    obj.style.transform = "rotateY(" + tX + "deg)";
+
+}
+
+carousel.onpointerdown = function (e) {
     clearInterval(odrag.timer);
     e = e || window.event;
-    let sX = e.clientX,
-        sY = e.clientY;
-    this.onpointermove = function(e) {
+    sX = e.clientX;
+    sY = e.clientY;
+    this.onpointermove = function (e) {
         e = e || window.event;
-        let nX = e.clientX,
-            nY = e.clientY;
+        nX = e.clientX;
+        nY = e.clientY;
         desX = nX - sX;
         desY = nY - sY;
         tX += desX * 0.1;
@@ -158,15 +163,15 @@ carousel.onpointerdown = function(e) {
         sX = nX;
         sY = nY;
     };
-    this.onpointerup = function(e) {
-        odrag.timer = setInterval(function() {
-            desX *= 0.95;
-            desY *= 0.95;
-            tX += desX * 0.1;
-            tY += desY * 0.1;
-            applyTranform(odrag);
-        }, 17);
-        this.onpointermove = this.onpointerup = null;
-    };
+    // this.onpointerup = function (e) {
+    //     odrag.timer = setInterval(function () {
+    //         desX *= 0.95;
+    //         desY *= 0.95;
+    //         tX += desX * 0.1;
+    //         tY += desY * 0.1;
+    //         applyTranform(odrag);
+    //     }, 17);
+    //     this.onpointermove = this.onpointerup = null;
+    // };
     return false;
 };
