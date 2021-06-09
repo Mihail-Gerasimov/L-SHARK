@@ -907,6 +907,53 @@ button:focus {
 
 /* 4-shark */
 
+.stages-mobile .stages-mobile--item:first-child .stages-mini-mobile {
+    left: 38px;
+    top: 18px;
+    width: 75px;
+}
+
+.stages-mobile .stages-mobile--item:nth-child(2) .stages-mini-mobile {
+    left: 35px;
+    top: 16px;
+    width: 77px;
+}
+
+.stages-mobile .stages-mobile--item:nth-child(3) .stages-mini-mobile {
+    left: 28px;
+    top: 18px;
+    width: 80px;
+}
+
+.stages-mobile .stages-mobile--item:nth-child(4) .stages-mini-mobile {
+    left: 29px;
+    top: 14px;
+    width: 82px;
+}
+
+.stages-mobile .stages-mobile--item:nth-child(5) .stages-mini-mobile {
+    left: 30px;
+    top: 18px;
+    width: 82px;
+}
+
+.stages-mobile .stages-mobile--item:nth-child(6) .stages-mini-mobile {
+    left: 24px;
+    top: 20px;
+    width: 85px;
+}
+
+.stages-mobile .stages-mobile--item:nth-child(7) .stages-mini-mobile {
+    left: 29px;
+    top: 14px;
+    width: 84px;
+}
+
+.stages-mobile .stages-mobile--item:last-child .stages-mini-mobile {
+    left: 34px;
+    top: 11px;
+    width: 80px;
+}
 
 /* stages */
 

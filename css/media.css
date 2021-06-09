@@ -1,26 +1,32 @@
 @media (max-width: 1800px) {
+
     /* header */
     .shar-an {
         margin-right: 40px;
     }
+
     .block-content {
         padding: 0px !important;
     }
+
     /* header */
 }
 
 @media (max-width: 1650px) {
+
     /* we-know */
     .big-shark {
         width: 550px;
         bottom: -315px;
         right: -120px;
     }
+
     /* we-know */
     /* stages */
     .ez-money {
         width: 650px;
     }
+
     /* stages */
     /* businness */
     .businness-big-pic {
@@ -28,6 +34,7 @@
         width: 625px;
         bottom: 50px;
     }
+
     /* businness */
     /* about-us */
     .about-picture {
@@ -35,17 +42,21 @@
         top: 81px;
         width: 830px;
     }
+
     /* about-us */
 }
 
 @media (max-width: 1450px) {
+
     /* nav */
     .navbar-brand {
         margin-right: 55px;
     }
+
     .nav-link {
         margin-right: 55px;
     }
+
     /* nav */
     /* header */
     .shar-an {
@@ -53,13 +64,16 @@
         width: 560px;
         height: auto;
     }
+
     .title-header {
         font-size: 50px;
         margin-bottom: 90px;
     }
+
     .title-header span {
         font-size: 165px;
     }
+
     /* header */
     /* we-know */
     .big-shark {
@@ -67,28 +81,34 @@
         bottom: -240px;
         right: -120px;
     }
+
     /* we-know */
     /* cases */
     .logo-slide-img {
         width: 780px;
     }
+
     .image-slider {
         height: 660px;
     }
+
     /* stages */
     .stages-general-block {
         padding-left: 10px;
         margin-bottom: 30px;
     }
+
     .ez-money {
         width: 530px;
     }
+
     /* stages */
     /* business */
     .businness-big-pic {
         width: 440px;
         bottom: 135px;
     }
+
     /* business */
     /* about-us */
     .about-picture {
@@ -96,86 +116,107 @@
         top: 240px;
         width: 595px;
     }
+
     /* about-us */
     /* footer */
     .footer-logo {
         width: 200px;
     }
+
     .footer-list-item {
         font-size: 17px;
     }
+
     /* footer */
 }
 
 @media (max-width: 1400px) {
+
     /* we-know */
     .advantages__item--top img {
         width: 80px;
     }
+
     .advantages__item {
         width: 310px;
     }
+
     .advantages__subtitle {
         font-size: 19px;
     }
+
     .we-know-btn {
         width: 290px;
         height: 70px;
         transform: translateX(5%);
     }
+
     .big-shark {
         width: 400px;
         bottom: -240px;
         right: -90px;
     }
+
     /* we-know */
 }
 
 @media (max-width: 1300px) {
+
     /* business */
     .businness-big-pic {
         display: none;
     }
+
     /* business */
     /* about-us */
     .about-us--text {
         max-width: 545px;
         font-size: 20px;
     }
+
     .about-picture {
         top: 135px;
         width: 544px;
     }
+
     /* about-us */
     /* reviews */
     .block--slider__card {
         width: 300px;
     }
+
     /* reviews */
 }
 
 @media (max-width: 1200px) {
+
     /* nav */
     .nav-number {
         font-size: 25px;
     }
+
     .nav-link {
         font-size: 20px;
     }
+
     .nav-number::before {
         top: 0px;
     }
+
     /* nav */
     /* headr */
     .block-content {
         margin-top: 100px;
     }
+
     .clients {
         font-size: 35px;
     }
+
     .title-header span {
         font-size: 125px;
     }
+
     /* nav */
     /* we-know */
     .big-shark {
@@ -183,28 +224,35 @@
         bottom: -200px;
         right: -77px;
     }
+
     .advantages__item {
         width: 270px;
     }
+
     .advantages__subtitle {
         font-size: 17px;
     }
+
     .we-know-btn {
         width: 250px;
         height: 55px;
         transform: none;
     }
+
     /* we-know */
     /* cooperation */
     .cooperation-item {
         margin-right: 60px;
     }
+
     .cooperation-item img {
         width: 180px;
     }
+
     .cooperation-info {
         font-size: 19px;
     }
+
     /* cooperation */
     /* cases */
     .case-prev {
@@ -212,32 +260,40 @@
         left: auto;
         width: 40px;
     }
+
     .case-next {
         width: 40px;
     }
+
     .text-cases-title {
         width: 610px;
         font-size: 34px;
     }
+
     .logo-slide-img {
         height: 400px;
         width: 560px;
     }
+
     .logo-slide {
         width: 400px;
         margin-bottom: 20px;
     }
+
     .cases-slider-list__item {
         font-size: 40px;
         line-height: 85%;
     }
+
     .cases-slider-list__item span {
         font-size: 30px;
         line-height: 34px;
     }
+
     .image-slider {
         height: 630px;
     }
+
     /* cases */
     /* stages */
     /* .stages-general-block {
@@ -246,94 +302,115 @@
     .ez-money {
         display: none;
     }
+
     /* stages */
     /* footer */
     .footer-logo {
         width: 165px;
     }
+
     .footer-list-item {
         font-size: 15px;
     }
+
     /* footer */
 }
 
 @media (max-width: 1020px) {
+
     /* header */
     .shar-an {
         width: 455px;
     }
+
     .title-header {
         font-size: 50px;
         margin-bottom: 50px;
     }
+
     .clients {
         font-size: 30px;
     }
+
     /* header */
     /* about-us */
     .about-us--text {
         max-width: 386px;
         font-size: 17px;
     }
+
     /* about-us */
     /* services */
     .services-btn {
         padding: 8px 40px;
     }
+
     .services-prev {
         right: 60px;
         width: 40px;
         top: 50px;
     }
+
     .services-next {
         right: 0px;
         width: 40px;
         top: 50px;
     }
+
     .ser-img {
         width: 55px;
     }
+
     .services-title__card {
         height: 34px;
         font-size: 14px;
     }
+
     .services-text__card {
         height: 145px;
         width: 213px;
         font-size: 15px;
     }
+
     .services-slide__child {
         width: 260px;
         height: 470px;
     }
+
     .fon-ser {
         height: 440px;
     }
+
     /* services */
     /* reviews */
     .rev-prev,
     .rev-next {
         display: block;
     }
+
     .rev-next {
         width: 55px;
         right: 0;
         top: 25px;
     }
+
     .rev-prev {
         width: 55px;
         right: 80px;
         top: 25px;
         left: auto;
     }
+
     /* reviews */
 }
 
 @media (max-width: 992px) {
+
     /* nav */
     .navbar-toggler {
         padding: 0 !important;
     }
+
     .navbar-collapse {
         z-index: 10;
         position: absolute;
@@ -348,31 +425,38 @@
         width: 100%;
         background: #0C1B33;
     }
+
     .navbar-nav {
         padding-top: 20px;
     }
+
     .nav-link {
         margin-right: 0px;
         margin-bottom: 20px;
         text-align: center;
     }
+
     .navbar-brand {
         margin-right: 0px;
         width: 60px;
     }
+
     .nav-number::before {
         display: none;
     }
+
     /* nav */
     /* we-know */
     .big-shark {
         display: none;
     }
+
     .cooperation-item {
         margin-right: 30px !important;
         margin-left: 30px !important;
         margin-bottom: 10px;
     }
+
     /* we-know */
     /* cooperation */
     /* cooperation */
@@ -381,37 +465,46 @@
         font-size: 26px;
         max-width: 678px;
     }
+
     .image-slider {
         height: 535px;
     }
+
     .logo-slide-img {
         height: 300px;
         width: 435px;
     }
+
     .logo-slide {
         width: 300px;
         margin-bottom: 20px;
     }
+
     .logo-slide img {
         width: 110px;
     }
+
     .cases-slider-list__item {
         font-size: 33px;
         line-height: 82%;
     }
+
     .cases-slider-list__item span {
         font-size: 23px;
         line-height: 31px;
     }
+
     /* cases */
     /* stages */
     .stages-element {
         margin-right: 65px;
         width: 100px;
     }
+
     .stages-general-block {
         padding-left: 0px;
     }
+
     .stages__number {
         width: 99px;
         border-radius: 50%;
@@ -419,35 +512,42 @@
         height: 99px;
         padding: 4px;
     }
+
     .stages-element__title {
         font-size: 80px;
         line-height: 110%;
         opacity: 0.7;
         color: #3B5175;
     }
+
     .stages__number::after {
         width: 45px;
         right: -55px;
     }
+
     .stages-text {
         font-size: 14px;
         width: 99px;
     }
+
     /* shark-1 */
     .stages-general-block .stages-element:first-child .stages-element__title {
         top: 0px;
         right: 9px;
     }
+
     .stages-general-block .stages-element:first-child .shark-head {
         width: 115px;
         top: 28px;
         right: -14px;
     }
+
     .stages-general-block .stages-element:first-child .red-line {
         top: 49px;
         right: -1px;
         width: 16px;
     }
+
     /* shark-1 */
     /* shark-2 */
     .stages-general-block .stages-element:nth-child(2) .shark-head {
@@ -455,11 +555,13 @@
         top: 20px;
         right: 7px;
     }
+
     .stages-general-block .stages-element:nth-child(2) .red-line {
         top: 49px;
         right: -1px;
         width: 51px;
     }
+
     /* shark-2 */
     /* shark-3 */
     .stages-general-block .stages-element:nth-child(3) .shark-head {
@@ -467,14 +569,17 @@
         top: 28px;
         right: 17px;
     }
+
     .stages-general-block .stages-element:nth-child(3) .red-line {
         width: 86px;
         top: 49px;
         right: -1px;
     }
+
     .stages-general-block .stages-element:nth-child(3) .stages-element__title {
         right: 2px;
     }
+
     /* shark-3 */
     /* shark-4 */
     .stages-general-block .stages-element:nth-child(4) .shark-head {
@@ -482,10 +587,12 @@
         top: 37px;
         right: 0px;
     }
+
     .stages-general-block .stages-element:nth-child(4) .red-line {
         top: 50px;
         right: 0px;
     }
+
     /* shark-4 */
     /* shark-1 */
     .stages-general-block-two .stages-element:first-child .shark-head {
@@ -493,14 +600,17 @@
         top: 16px;
         right: -14px;
     }
+
     .stages-general-block-two .stages-element:first-child .stages-element__title {
         top: 0px;
         right: 0px;
     }
+
     .stages-general-block-two .stages-element:first-child .red-line {
         top: 13px;
         width: auto;
     }
+
     /* shark-1 */
     /* shark-2 */
     .stages-general-block-two .stages-element:nth-child(2) .shark-head {
@@ -508,15 +618,18 @@
         top: 25px;
         right: -4px;
     }
+
     .stages-general-block-two .stages-element:nth-child(2) .stages-element__title {
         top: 2px;
         right: 0px;
     }
+
     .stages-general-block-two .stages-element:nth-child(2) .red-line {
         top: 0px;
         right: -1px;
         width: auto;
     }
+
     /* shark-2 */
     /* shark-3 */
     .stages-general-block-two .stages-element:nth-child(3) .shark-head {
@@ -524,11 +637,13 @@
         top: 26px;
         right: 10px;
     }
+
     .stages-general-block-two .stages-element:nth-child(3) .red-line {
         width: auto;
         top: 0px;
         right: -1px;
     }
+
     /* shark-3 */
     /* shark-4 */
     .stages-general-block-two .stages-element:nth-child(4) .shark-head {
@@ -536,6 +651,7 @@
         top: 13px;
         right: 35px;
     }
+
     /* shark-4 */
     /* stages */
     /* business */
@@ -544,170 +660,212 @@
         height: 475px;
         padding: 20px 20px 25px 0;
     }
+
     .businness-subblock--title {
         font-size: 20px;
         padding: 7px 50px 7px 20px;
     }
+
     .businness-img-wrapper {
         width: 45px;
         height: 45px;
         padding: 5px;
     }
+
     .info-business--text {
         font-size: 16px;
         width: auto;
     }
+
     .info-business--text br {
         display: none;
     }
+
     /* business */
 }
 
 @media (max-width: 940px) {
+
     /* header */
     .shar-an {
         width: 400px;
     }
+
     .title-header span {
         font-size: 100px;
     }
+
     /* header */
     /* about-us */
     .about-picture {
         top: 204px;
         width: 451px;
     }
+
     /* about-us */
 }
 
 @media (max-width: 800px) {
+
     /* header */
     .block-content {
         margin-top: 40px;
     }
+
     .title-header {
         font-size: 42px;
     }
+
     .title-header span {
         font-size: 85px;
     }
+
     .clients {
         font-size: 27px;
     }
+
     .shar-an {
         width: 330px;
     }
+
     /* header */
     /* about-us */
     .about-picture {
         top: 204px;
         width: 350px;
     }
+
     /* about-us */
 }
 
 @media (max-width: 767px) {
+
     /* we-know */
     .we-know {
         padding: 35px 0 35px;
         z-index: 0;
     }
+
     .advantages__subtitle {
         font-size: 18px;
     }
+
     .advantages__item--top img {
         width: 50px;
     }
+
     .advantages__item {
         width: 240px;
     }
+
     .we-know-btn {
         width: 240px;
     }
+
     /* we-know */
     /* cooperation */
     .cooperation {
         padding: 30px 0 30px;
     }
+
     /* cooperation */
     /* cases */
     .case-prev {
         top: 45px;
     }
+
     .case-next {
         top: 45px;
     }
+
     .text-cases-title {
         font-size: 18px;
         max-width: 250px;
     }
+
     .cases {
         padding: 30px 0 15px;
     }
+
     .image-slider {
         height: 465px;
         padding: 15px 0 15px 0;
     }
+
     .logo-slide {
         width: 200px;
         margin-bottom: 20px;
     }
+
     .logo-slide img {
         width: 75px;
     }
+
     .cases-slider-list__item {
         font-size: 30px;
         line-height: 82%;
     }
+
     .cases-slider-list__item span {
         font-size: 20px;
         line-height: 28px;
     }
+
     /* cases */
     /* services */
     .services-next,
     .services-prev {
         top: 40px;
     }
+
     .services {
         padding: 40px 0 40px;
     }
+
     .input-services {
         width: 275px;
         font-size: 18px;
         height: 45px;
     }
+
     .btn-services {
         width: 275px;
         height: 55px;
     }
+
     .services-info {
         width: auto;
         font-size: 16px;
     }
+
     /* services */
     /* request */
     .request {
         filter: drop-shadow(0px 0px 6px rgba(79, 79, 79, 0.5));
         padding: 40px 0 30px;
     }
+
     /* request */
     /* stages */
     .stages__number::after {
         display: none;
     }
+
     .stages-element {
         margin-right: 0px;
         margin: 10px 0 10px;
     }
+
     .stages-general-block {
         margin-bottom: 0px;
     }
+
     /* shark-1 */
     .stages-general-block .stages-element:first-child .shark-head {
         width: 88px;
         right: 1px;
     }
+
     /* shark-1 */
     /* shark-2 */
     .stages-general-block .stages-element:nth-child(2) .shark-head {
@@ -715,50 +873,60 @@
         top: 24px;
         right: 15px;
     }
+
     /* shark-2 */
     /* shark-3 */
     .stages-general-block .stages-element:nth-child(3) .shark-head {
         width: 75px;
     }
+
     /* shark-3 */
     /* shark-4 */
     .stages-general-block .stages-element:nth-child(4) .shark-head {
         width: 82px;
         right: 3px;
     }
+
     /* shark-4 */
     /* shark-1 */
     .stages-general-block-two .stages-element:first-child .shark-head {
         top: 25px;
     }
+
     /* shark-1 */
     /* shark-2 */
     .stages-general-block .stages-element:nth-child(2) .shark-head {
         right: 12px;
     }
+
     /* shark-2 */
     /* shark-3 */
     .stages-general-block-two .stages-element:nth-child(3) .shark-head {
         top: 37px;
     }
+
     /* shark-3 */
     /* shark-4 */
     .stages-general-block-two .stages-element:nth-child(4) .shark-head {
         width: 69px;
         right: 27px;
     }
+
     /* shark-4 */
     /* stages */
     /* businnes */
     .info-business--text br {
         display: block;
     }
+
     .businness-subblock {
         max-width: 369px;
     }
+
     .info-business--text {
         font-size: 15px;
     }
+
     /* businnes */
     /* about-us */
     .about-picture {
@@ -769,90 +937,112 @@
         margin: 0 auto;
         width: 100%;
     }
+
     .about-us--text {
         text-align: start;
         max-width: 100%;
         font-size: 16px;
     }
+
     /* about-us */
     /* reviews */
     .block--slider__card {
         width: 230px;
     }
+
     .reviews-block__title {
         font-size: 17px;
     }
+
     .reviews-block__title span {
         font-size: 20px;
     }
+
     .play {
         top: 40%;
     }
+
     .rev-prev {
         width: 30px;
         right: 55px;
         top: 25px;
     }
+
     .rev-next {
         width: 30px;
         right: 10px;
         top: 25px;
     }
+
     /* reviews */
 }
 
 @media (max-width: 630px) {
+
     /* header */
     .title-header {
         font-size: 30px;
     }
+
     .title-header span {
         font-size: 70px;
     }
+
     .clients {
         font-size: 23px;
     }
+
     .shar-an {
         width: 280px;
         margin-right: 25px;
     }
+
     /* header */
     /* cases */
     .image-slider {
         height: 400px;
         padding: 15px 0 15px 0;
     }
+
     .logo-slide {
         width: 180px;
         margin-bottom: 20px;
     }
+
     .logo-slide img {
         width: 67px;
     }
+
     .cases-slider-list__item {
         font-size: 26px;
         line-height: 80%;
     }
+
     .cases-slider-list__item span {
         font-size: 17px;
         line-height: 22px;
     }
+
     .logo-slide-img {
         height: 190px;
         width: 310px;
     }
+
     /* cases */
 }
 
 @media (max-width: 575px) {
+
     /* header */
     .header {
         padding-bottom: 0px;
     }
+
     .shar-an {
         margin: 0;
         width: auto;
     }
+
     .shark-an-position {
         top: 50%;
         left: 50%;
@@ -860,6 +1050,7 @@
         transform: translate(-50%, -50%);
         z-index: -1;
     }
+
     .title-header {
         font-size: 24px;
         margin-bottom: 110px;
@@ -867,47 +1058,59 @@
         padding: 25px 0;
         background: rgba(20, 34, 57, 0.8);
     }
+
     .title-header span {
         font-size: 50px;
     }
+
     .clients {
         font-size: 20px;
         width: 100%;
         padding: 10px 0;
         background: rgba(20, 34, 57, 0.8);
     }
+
     .block-content {
         margin-top: 120px;
     }
+
     .drop-down {
         display: none;
     }
+
     .header-container {
         padding: 0px !important;
     }
+
     /* header */
     /* cases */
     .image-slider {
         height: 370px;
     }
+
     .logo-slide {
         width: 140px;
     }
+
     .logo-slide img {
         width: 65px;
     }
+
     .cases-slider-list__item {
         font-size: 23px;
         line-height: 78%;
     }
+
     .cases-slider-list__item span {
         font-size: 16px;
         line-height: 20px;
     }
+
     .logo-slide-img {
         height: 170px;
         width: 260px;
     }
+
     /* cases */
     /* request */
     .custom-radio--text {
@@ -915,6 +1118,7 @@
         line-height: 16px;
         width: 175px;
     }
+
     /* request */
     /* stages */
     .stages-mobile--item {
@@ -926,6 +1130,7 @@
         z-index: 0;
         width: fit-content;
     }
+
     .stages-mobile--element {
         width: 145px;
         padding: 5px;
@@ -934,6 +1139,7 @@
         border-radius: 40px;
         z-index: 0;
     }
+
     .stages-title--mobile {
         font-style: normal;
         font-weight: bold;
@@ -949,46 +1155,57 @@
         height: 52px;
         box-shadow: 1px 1px 2px rgba(30, 51, 86, 0.3), -1px -1px 2px rgba(10, 17, 29, 0.5), inset -1px 1px 2px rgba(10, 17, 29, 0.2), inset 1px -1px 2px rgba(10, 17, 29, 0.2), inset -1px -1px 2px rgba(30, 51, 86, 0.9), inset 1px 1px 3px rgba(10, 17, 29, 0.9);
     }
+
     .shark-mobile {
         left: 32px;
         top: 1px;
     }
+
     .stages-text {
         margin-left: 15px;
         font-size: 16px;
         width: 110px;
         text-align: start;
     }
+
     .stages-text br {
         display: none;
     }
+
     /* stages */
     /* stock */
     .stock {
         background: #fdfdfd;
     }
+
     .stock-item {
         background: #F4F9FF;
         border-radius: 0px 20px;
         width: 270px;
         height: 340px;
     }
+
     .stock-element {
         background: #F4F9FF;
     }
+
     .stock-img-one {
         width: 130px;
     }
+
     .stock-text {
         font-size: 16px;
     }
+
     .stock-text span {
         font-size: 22px;
     }
+
     .stock-btn {
         font-size: 22px;
         width: 235px;
     }
+
     .stock-decor-one {
         top: 6px;
         left: -55px;
@@ -997,91 +1214,114 @@
         border-right: 57px solid transparent;
         width: 179px;
     }
+
     .stock-individ-element::before {
         top: -9px;
         left: 77px;
     }
+
     .stock-individ-element::after {
         top: 82px;
         left: -11px;
     }
+
     .stock-img-two {
         width: 175px;
     }
+
     .stock-present {
         width: 110px;
     }
+
     .sale-stock {
         width: 150px;
     }
+
     .sale-long {
         width: 160px;
     }
+
     .stock-img-three {
         width: 145px;
     }
+
     /* stock */
     /* reviews */
     .rev-prev,
     .rev-next {
         display: none;
     }
+
     .arrow-img {
         display: block;
         top: 25px;
         right: 0;
     }
+
     /* footer */
     .footer {
         padding: 30px 0 40px;
     }
+
     .footer-logo {
         width: 100px;
     }
+
     /* footer */
     /* modal */
     .modal-thanks {
         width: 310px;
         height: 430px;
     }
+
     /* modal */
 }
 
 @media (max-width: 475px) {
+
     /* cases */
     .mob-abc-fon {
         display: block;
         right: 10px;
         top: 12px;
     }
+
     .mob-abc-phone {
         display: block;
         right: 10px;
         top: 40px;
     }
+
     .vector-mobile {
         display: block;
         right: 15px;
         top: 105px;
     }
+
     .cases .container {
         padding: 0 0 0 20px;
     }
+
     .image-slider__slide {
         padding: 0 10px 0 0;
     }
+
     .case-prev {
         display: none;
     }
+
     .case-next {
         display: none;
     }
+
     .logo-slide-img {
         width: 240px;
     }
+
     .image-slider {
         height: 430px;
     }
+
     .image-slider__image {
         height: 250px;
         width: auto;
@@ -1089,6 +1329,7 @@
         border-radius: 10px;
         /* text-align: center; */
     }
+
     .logo-slide {
         align-items: center;
         display: flex;
@@ -1099,78 +1340,122 @@
         width: 140px;
         padding: 8px 0px 8px 19px;
     }
+
     .cases-slider-list {
         padding-left: 19px;
     }
+
     .cases-slider-list__item {
         color: #F4F9FF;
     }
+
     .cases-slider-list__item span {
         color: #F4F9FF;
     }
+
     .logo-slide-img {
         display: none;
     }
+
     /* cases */
     /* business */
     .business {
         padding: 60px 0 25px;
     }
+
     .container-individ {
         padding: 0 !important;
     }
+
     .businness-subblock {
         max-width: 100%;
     }
+
     .businness-subblock {
         border-radius: 0px;
     }
+
     .businness-subblock--two {
         background: #ffffff;
         box-shadow: none;
     }
+
     .businness-subblock {
         box-shadow: none;
         padding: 20px 10px 25px 0;
         height: auto;
     }
+
     /* .info-business--text br {
     display: none;;
 } */
     /* business */
     /* reviews */
+    .advantages-block {
+        width: fit-content;
+    }
+
     .reviews .container {
         padding-left: 0px;
     }
+
     /* reviews */
+    /* about-us */
+    .about-us {
+        padding: 75px 0 295px;
+    }
+
+    /* about-us */
+    .about-picture {
+        bottom: -130px;
+        position: absolute !important;
+        top: auto;
+        right: 0;
+        max-width: 500px;
+        margin: 0 auto;
+        width: 100%;
+    }
 }
 
 @media (max-width: 425px) {
     .services-container {
         display: none;
     }
+
     .services-title {
         display: block;
     }
+
     .cor-block-fit {
         display: block;
+    }
+
+    .about-us {
+        padding: 75px 0 260px;
     }
 }
 
 @media (max-width: 375px) {
+
     /* stages */
     .stages-mobile--item {
         padding: 8px 15px 8px 0px;
         transform: translateX(-39px);
     }
+
     .stages-mobile--element {
         width: 120px;
     }
+
     /* stages */
     /* cases */
     .mob-abc-phone {
         top: 90px;
         width: 96px;
     }
+
     /* cases */
+    .about-picture {
+        bottom: -75px;
+    }
 }

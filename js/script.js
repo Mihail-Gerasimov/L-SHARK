@@ -84,8 +84,12 @@ const swiperL = new Swiper('.rev-container', {
             inicialSlide: 0,
             spaceBetween: 0,
         },
+        375: {
+            slidesPerView: 1.4,
+            centeredSlides: true,
+        },
         320: {
-            slidesPerView: 1.2,
+            slidesPerView: 1.25,
             centeredSlides: true,
             loop: true,
             inicialSlide: 2,
